@@ -5,6 +5,7 @@ import biomePlugin from "vite-plugin-biome";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "",
   build: {
     // Called "docs" so that the output is compatible with GitHub Pages
     outDir: "docs",
