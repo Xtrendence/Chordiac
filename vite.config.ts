@@ -1,3 +1,4 @@
+import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react-swc";
 import { defineConfig } from "vite";
 import biomePlugin from "vite-plugin-biome";
@@ -12,5 +13,6 @@ export default defineConfig({
       applyFixes: true,
       failOnError: true,
     }),
+    tailwindcss(),
   ],
 });

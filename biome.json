@@ -15,7 +15,8 @@
       "recommended": true,
       "correctness": {
         "noUnusedVariables": "warn",
-        "useExhaustiveDependencies": "warn"
+        "useExhaustiveDependencies": "warn",
+        "noUnusedImports": "error"
       },
       "style": {
         "useBlockStatements": "error",

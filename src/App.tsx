@@ -1,5 +1,13 @@
+import { Card, CardBody } from "@heroui/react";
+
 function App() {
-  return <h1>Test</h1>;
+  return (
+    <Card>
+      <CardBody>
+        <p>Chordiac</p>
+      </CardBody>
+    </Card>
+  );
 }
 
 export default App;
