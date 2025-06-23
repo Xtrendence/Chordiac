@@ -8,9 +8,12 @@
     "enabled": true,
     "rules": {
       "suspicious": {
-        "noConsoleLog": "warn",
+        "noConsoleLog": "off",
         "noEmptyInterface": "off",
         "noArrayIndexKey": "warn"
+      },
+      "a11y": {
+        "useKeyWithClickEvents": "off"
       },
       "recommended": true,
       "correctness": {

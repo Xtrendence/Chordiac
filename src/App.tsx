@@ -1,13 +1,7 @@
-import { Card, CardBody } from "@heroui/react";
+import { Page } from "./components/Page";
 
 function App() {
-  return (
-    <Card>
-      <CardBody>
-        <p>Chordiac</p>
-      </CardBody>
-    </Card>
-  );
+  return <Page />;
 }
 
 export default App;
