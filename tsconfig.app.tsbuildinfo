@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/style/themeprovider.tsx","./src/style/hero.ts"],"version":"5.8.2"}
+{"root":["./src/app.tsx","./src/global.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/fret.tsx","./src/components/guitar.tsx","./src/components/guitarstring.tsx","./src/components/page.tsx","./src/components/tabs.tsx","./src/hooks/usetuning.ts","./src/style/themeprovider.tsx","./src/style/hero.ts","./src/utils/audio.ts","./src/utils/notes.ts","./src/utils/utils.ts"],"version":"5.8.2"}

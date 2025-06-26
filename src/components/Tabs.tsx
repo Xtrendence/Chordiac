@@ -99,7 +99,7 @@ export function Tabs() {
   const tuningAdjustments = getDistanceFromStandardTuning(tuning);
 
   return (
-    <div className="flex flex-col gap-2 mx-4">
+    <div className="flex flex-col gap-2 mx-4 px-4 w-full justify-center items-center">
       <div className="flex flex-wrap">
         {tabs.map((tab, index) => (
           <div key={index.toString()} className="flex items-center mb-8">
