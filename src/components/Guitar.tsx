@@ -2,8 +2,9 @@ import { Card, CardBody } from "@heroui/react";
 import { Dropdown, DropdownItem, DropdownMenu, DropdownTrigger } from "@heroui/react";
 import { useState } from "react";
 import ClickAwayListener from "react-click-away-listener";
+import { FaRedoAlt } from "react-icons/fa";
 import { FaMinus, FaPlus } from "react-icons/fa6";
-import { NUMBER_OF_STRINGS } from "../global";
+import { NUMBER_OF_STRINGS, STANDARD_TUNING } from "../global";
 import { useTuning } from "../hooks/useTuning";
 import { getNextNoteName, getPreviousNoteName } from "../utils/notes";
 import { GuitarString } from "./GuitarString";
@@ -67,6 +68,16 @@ function Menu({
             }}
           >
             Flatten
+          </DropdownItem>
+          <DropdownItem
+            key={"reset"}
+            startContent={<FaRedoAlt />}
+            onClick={() => {
+              setTuning(STANDARD_TUNING);
+              setMenuId(undefined);
+            }}
+          >
+            Reset
           </DropdownItem>
         </DropdownMenu>
       </ClickAwayListener>
